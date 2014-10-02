@@ -105,23 +105,23 @@ body {
 
 @-webkit-keyframes slide-up {
     0%{
-        top: 18rem;
         opacity: 0;
+        top: 18rem;
     }
     100%{
-        top: 13em;
         opacity: 1;
+        top: 13em;
     }
 }
 
 @keyframes slide-up {
     0%{
-        top: 18rem;
         opacity: 0;
+        top: 18rem;
     }
     100%{
-        top: 13em;
         opacity: 1;
+        top: 13em;
     }
 }
 
