@@ -99,23 +99,29 @@ body {
 .sales__details[data-state="active"]{
     display: block;
     top: 13em;
+    -webkit-animation: slide-up 250ms ease-out;
+    animation: slide-up 250ms ease-out;
 }
 
 @-webkit-keyframes slide-up {
     0%{
         top: 18rem;
+        opacity: 0;
     }
     100%{
         top: 13em;
+        opacity: 1;
     }
 }
 
 @keyframes slide-up {
     0%{
         top: 18rem;
+        opacity: 0;
     }
     100%{
         top: 13em;
+        opacity: 1;
     }
 }
 
