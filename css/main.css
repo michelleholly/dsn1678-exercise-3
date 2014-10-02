@@ -91,16 +91,16 @@ body {
   background-color: #000;
   border-radius: 6px;
     display: none;
-    -webkit-animation: slide-up 250ms ease-out;
-    animation: slide-up 250ms ease-out;
+    -webkit-animation: slide-up 500ms ease-out;
+    animation: slide-up 500ms ease-out;
 
 }
 
 .sales__details[data-state="active"]{
     display: block;
     top: 13em;
-    -webkit-animation: slide-up 250ms ease-out;
-    animation: slide-up 250ms ease-out;
+    -webkit-animation: slide-up 500ms ease-out;
+    animation: slide-up 500ms ease-out;
 }
 
 @-webkit-keyframes slide-up {
