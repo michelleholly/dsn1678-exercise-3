@@ -1,14 +1,29 @@
-var button = $('.sales');
-var info = $('.sales__details');
+var buttonLeft = $('.sales__left');
+var infoLeft = $('.sales__details__left');
 
-var buttonClickHandler = function (){
-    var currentState = info.attr('data-state');
+var buttonClickHandlerLeft = function (){
+    var currentState = infoLeft.attr('data-state');
     
     if(currentState=='active') {
-    info.attr('data-state', 'inactive');   
+    infoLeft.attr('data-state', 'inactive');   
     } else {
-    info.attr('data-state', 'active');    
+    infoLeft.attr('data-state', 'active');    
     }
 };
 
-button.on('click', buttonClickHandler);
+buttonLeft.on('click', buttonClickHandlerLeft);
+
+var buttonRight = $('.sales__right');
+var infoRight = $('.sales__details__right');
+
+var buttonClickHandlerRight = function (){
+    var currentState = infoRight.attr('data-state');
+    
+    if(currentState=='active') {
+    infoRight.attr('data-state', 'inactive');   
+    } else {
+    infoRight.attr('data-state', 'active');    
+    }
+};
+
+buttonRight.on('click', buttonClickHandlerRight);
